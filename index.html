@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for freelance video editor Shivraj Patat, specializing in cinematic reels and short video editing."
+    />
+    <title>Shivraj Patat | Freelance Video Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header and mobile-friendly navigation -->
+    <header class="site-header">
+      <a class="logo" href="#home" aria-label="Go to home section">
+        <span>SP</span>
+        Shivraj Patat
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#samples">Samples</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home Page / Hero Section -->
+      <section id="home" class="hero section">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Freelance Video Editor</p>
+          <h1>Cinematic Reels &amp; Short Video Editing</h1>
+          <p class="hero-subtitle">
+            Professional Instagram Reels, YouTube Shorts &amp; TikTok edits by Shivraj Patat
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#samples">View Samples</a>
+            <a class="btn btn-secondary" href="#contact">Contact Editor</a>
+          </div>
+        </div>
+
+        <!-- Decorative editing dashboard visual -->
+        <div class="hero-visual reveal" aria-label="Cinematic video editing style visual">
+          <div class="editor-window glass-card">
+            <div class="window-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="preview-frame">
+              <video
+                autoplay
+                muted
+                loop
+                playsinline
+                poster="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=80"
+              >
+                <source
+                  src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="play-glow">▶</div>
+            </div>
+            <div class="timeline">
+              <span class="clip clip-one"></span>
+              <span class="clip clip-two"></span>
+              <span class="clip clip-three"></span>
+              <span class="playhead"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Samples Page -->
+      <section id="samples" class="section samples-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Sample Work</p>
+          <h2>Demo Reel Edits</h2>
+          <p>
+            Placeholder royalty-free visuals for preview. Replace these cards with your real
+            Instagram Reels, Shorts, or TikTok edits later.
+          </p>
+        </div>
+
+        <div class="sample-grid">
+          <article class="sample-card glass-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80"
+              alt="Camera and cinematic setup"
+            />
+            <div class="sample-info">
+              <h3>Fitness Beat Sync Reel</h3>
+              <p>Fast cuts, punchy beat drops, and energetic motion for creator content.</p>
+              <button class="play-btn" type="button" data-video="Fitness Beat Sync Reel">Play</button>
+            </div>
+          </article>
+
+          <article class="sample-card glass-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80"
+              alt="Professional video camera"
+            />
+            <div class="sample-info">
+              <h3>Product Highlight Short</h3>
+              <p>Clean product reveal with zooms, titles, sound effects, and color polish.</p>
+              <button class="play-btn" type="button" data-video="Product Highlight Short">Play</button>
+            </div>
+          </article>
+
+          <article class="sample-card glass-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+              alt="Cinematic outdoor landscape"
+            />
+            <div class="sample-info">
+              <h3>Travel Cinematic Reel</h3>
+              <p>Smooth transitions, dramatic grading, and story-first pacing.</p>
+              <button class="play-btn" type="button" data-video="Travel Cinematic Reel">Play</button>
+            </div>
+          </article>
+
+          <article class="sample-card glass-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=800&q=80"
+              alt="Cinema seats and screen"
+            />
+            <div class="sample-info">
+              <h3>Event Recap Edit</h3>
+              <p>Short-form event storytelling with captions and music-driven cuts.</p>
+              <button class="play-btn" type="button" data-video="Event Recap Edit">Play</button>
+            </div>
+          </article>
+
+          <article class="sample-card glass-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1497015289639-54688650d173?auto=format&fit=crop&w=800&q=80"
+              alt="Neon city night"
+            />
+            <div class="sample-info">
+              <h3>Fashion Reel Edit</h3>
+              <p>Stylish speed ramps, glow effects, and polished social media pacing.</p>
+              <button class="play-btn" type="button" data-video="Fashion Reel Edit">Play</button>
+            </div>
+          </article>
+
+          <article class="sample-card glass-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=800&q=80"
+              alt="Laptop video editing workspace"
+            />
+            <div class="sample-info">
+              <h3>Talking Head Short</h3>
+              <p>Jump cuts, captions, hooks, and retention-focused editing for educators.</p>
+              <button class="play-btn" type="button" data-video="Talking Head Short">Play</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- About the Editor Page -->
+      <section id="about" class="section about-section">
+        <div class="about-photo reveal">
+          <img
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80"
+            alt="Professional placeholder profile photo"
+          />
+        </div>
+
+        <div class="about-content reveal">
+          <p class="eyebrow">About the Editor</p>
+          <h2>Shivraj Patat</h2>
+          <p>
+            Shivraj creates clean, engaging short-form videos for creators, businesses, and
+            personal brands. The goal is simple: make every reel look professional, hold attention,
+            and feel ready for social media.
+          </p>
+
+          <div class="skill-list">
+            <span>Reel Editing</span>
+            <span>Trending Instagram edits</span>
+            <span>Cinematic transitions</span>
+            <span>Beat sync editing</span>
+            <span>Color grading</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing / Payments Page -->
+      <section id="pricing" class="section pricing-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Pricing</p>
+          <h2>Simple Editing Packages</h2>
+          <p>Example pricing in INR. Edit the amounts later based on your real offer.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card glass-card reveal">
+            <h3>Basic Reel Edit</h3>
+            <p class="price">₹499</p>
+            <p>Best for simple cuts, music sync, and basic captions.</p>
+            <a class="btn btn-primary" href="#contact">Book Now</a>
+          </article>
+
+          <article class="price-card glass-card featured reveal">
+            <span class="tag">Popular</span>
+            <h3>Premium Cinematic Edit</h3>
+            <p class="price">₹1,499</p>
+            <p>Includes transitions, color grading, sound effects, and polished pacing.</p>
+            <a class="btn btn-primary" href="#contact">Book Now</a>
+          </article>
+
+          <article class="price-card glass-card reveal">
+            <h3>Monthly Creator Package</h3>
+            <p class="price">₹7,999</p>
+            <p>Perfect for creators who need regular Reels or Shorts every month.</p>
+            <a class="btn btn-primary" href="#contact">Book Now</a>
+          </article>
+        </div>
+
+        <!-- Payment placeholders -->
+        <div class="payment-box glass-card reveal">
+          <div>
+            <p class="eyebrow">Payments</p>
+            <h3>UPI and WhatsApp Booking</h3>
+            <p class="upi">UPI ID: shivrajpatat@upi</p>
+            <a class="btn btn-secondary" href="https://wa.me/910000000000" target="_blank" rel="noreferrer">
+              WhatsApp Contact
+            </a>
+          </div>
+
+          <div class="qr-placeholder" aria-label="QR code placeholder">
+            <span>QR</span>
+            <small>Payment QR Placeholder</small>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact-section">
+        <div class="contact-info reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Ready to Edit Your Next Reel?</h2>
+          <p>Send your footage, idea, or reference video and get a clean edit for your brand.</p>
+
+          <div class="contact-links">
+            <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://wa.me/910000000000" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a href="mailto:shivrajpatat@example.com">shivrajpatat@example.com</a>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card reveal">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="your@email.com" required />
+
+          <label for="message">Project Details</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Tell me about your reel, deadline, and style..."
+            required
+          ></textarea>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <!-- Demo video modal for sample play buttons -->
+    <div class="video-modal" aria-hidden="true">
+      <div class="modal-content glass-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Close video">×</button>
+        <h3 id="modal-title">Demo Reel Preview</h3>
+        <video controls poster="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=80">
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+        </video>
+        <p>This is a royalty-free placeholder preview. Add your real reel video link here.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>Edited with creativity by Shivraj Patat</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
