@@ -8,12 +8,6 @@
       content="Portfolio website for freelance video editor Shivraj Patat, specializing in cinematic reels and short video editing."
     />
     <title>Shivraj Patat | Freelance Video Editor</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -69,12 +63,10 @@
                 muted
                 loop
                 playsinline
-                poster="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=80"
+                poster="images/reel1-poster.jpg"
               >
                 <source
-                  src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-                  type="video/mp4"
-                />
+                  <source src="videos/reel1.mp4" type="video/mp4" />
               </video>
               <div class="play-glow">▶</div>
             </div>
@@ -101,58 +93,69 @@
 
         <div class="sample-grid">
           <article class="sample-card glass-card reveal">
-            <img
-              src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80"
-              alt="Camera and cinematic setup"
-            />
+            <div class="reel-preview">
+              <!-- Replace this reel video -->
+              <video autoplay muted loop playsinline poster="images/reel1-poster.jpg">
+                <source src="videos/reel1.mp4" type="video/mp4" />
+              </video>
+            </div>
             <div class="sample-info">
               <h3>Fitness Beat Sync Reel</h3>
               <p>Fast cuts, punchy beat drops, and energetic motion for creator content.</p>
-              <button class="play-btn" type="button" data-video="Fitness Beat Sync Reel">Play</button>
+                 <button class="play-btn" type="button" data-title="Fitness Beat Sync Reel" data-video="videos/reel1.mp4">Play</button>
+            </div>
             </div>
           </article>
 
           <article class="sample-card glass-card reveal">
-            <img
-              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80"
-              alt="Professional video camera"
-            />
+            <div class="reel-preview">
+              <!-- Replace this reel video -->
+              <video autoplay muted loop playsinline poster="images/reel2-poster.jpg">
+                <source src="videos/reel2.mp4" type="video/mp4" />
+              </video>
+            </div>
             <div class="sample-info">
               <h3>Product Highlight Short</h3>
               <p>Clean product reveal with zooms, titles, sound effects, and color polish.</p>
-              <button class="play-btn" type="button" data-video="Product Highlight Short">Play</button>
+                 <button class="play-btn" type="button" data-title="Product Highlight Short" data-video="videos/reel2.mp4">Play</button>
             </div>
           </article>
 
           <article class="sample-card glass-card reveal">
-            <img
-              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
-              alt="Cinematic outdoor landscape"
-            />
+           <div class="reel-preview">
+              <!-- Replace this reel video -->
+              <video autoplay muted loop playsinline poster="images/reel3-poster.jpg">
+                <source src="videos/reel3.mp4" type="video/mp4" />
+              </video>
+            </div>
             <div class="sample-info">
               <h3>Travel Cinematic Reel</h3>
               <p>Smooth transitions, dramatic grading, and story-first pacing.</p>
-              <button class="play-btn" type="button" data-video="Travel Cinematic Reel">Play</button>
+              <button class="play-btn" type="button" data-title="Travel Cinematic Reel" data-video="videos/reel3.mp4">Play</button>
             </div>
           </article>
 
           <article class="sample-card glass-card reveal">
-            <img
-              src="https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=800&q=80"
-              alt="Cinema seats and screen"
-            />
+            <div class="reel-preview">
+              <!-- Replace this reel video -->
+              <video autoplay muted loop playsinline poster="images/reel4-poster.jpg">
+                <source src="videos/reel4.mp4" type="video/mp4" />
+              </video>
+            </div>
             <div class="sample-info">
               <h3>Event Recap Edit</h3>
               <p>Short-form event storytelling with captions and music-driven cuts.</p>
-              <button class="play-btn" type="button" data-video="Event Recap Edit">Play</button>
+              <button class="play-btn" type="button" data-title="Event Recap Edit" data-video="videos/reel4.mp4">Play</button>
             </div>
           </article>
 
           <article class="sample-card glass-card reveal">
-            <img
-              src="https://images.unsplash.com/photo-1497015289639-54688650d173?auto=format&fit=crop&w=800&q=80"
-              alt="Neon city night"
-            />
+           <div class="reel-preview">
+              <!-- Replace this reel video -->
+              <video autoplay muted loop playsinline poster="images/reel5-poster.jpg">
+                <source src="videos/reel5.mp4" type="video/mp4" />
+              </video>
+            </div>
             <div class="sample-info">
               <h3>Fashion Reel Edit</h3>
               <p>Stylish speed ramps, glow effects, and polished social media pacing.</p>
